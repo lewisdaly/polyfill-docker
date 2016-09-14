@@ -20,4 +20,4 @@ RUN grunt build
 
 
 EXPOSE 3000
-CMD ["grunt", "prod"]
+CMD ["grunt", "dev"]
