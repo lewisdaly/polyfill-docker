@@ -18,6 +18,7 @@ RUN rm -f /tmp/v3.11.0.tar.gz
 RUN npm install
 RUN grunt build
 
+ENV NODE_ENV prod
 
 EXPOSE 3000
-CMD ["grunt", "dev"]
+CMD ["npm", "start"]
